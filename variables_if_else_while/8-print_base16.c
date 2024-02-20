@@ -7,11 +7,13 @@
 
 int main(void)
 {
-int digit;
-int hex[10];
+	char s;
+	int i;
 
-for (digit = 0 ; digit < 10 ; digit++)
-putchar('0' + digit);
-putchar('\n');
-return (0);
+	for (i = 0; i < 10; i++)
+		putchar('0' + i);
+	for (s = 'a'; s <= 'f'; s++)
+		putchar(s);
+	putchar('\n');
+	return (0);
 }
