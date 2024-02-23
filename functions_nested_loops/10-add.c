@@ -2,8 +2,8 @@
 
 /**
  * add - adds two integers
- * @a - first parameter
- * @b - second parameter
+ * @a: first parameter
+ * @b: second parameter
  * Return: void
  */
 
